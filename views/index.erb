@@ -1,0 +1,7 @@
+<h1>hello world</h1>
+
+<% dishes.each do |dish| %>
+    <li> <%= dish["name"] %> </li>
+    <img src="<%= dish["image_url"]%>" alt="">
+<% end %>
+
